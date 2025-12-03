@@ -1,0 +1,13 @@
+KitchenPal - UI Draft
+
+Pages:
+- Login / Register
+- Dashboard (Expiring Soon, Quick Actions)
+- Inventory List (search + filters)
+- Add / Edit Item form
+- Recipes (search by ingredients)
+- Shopping List (created from inventory)
+
+Notes:
+- Mobile-first responsive design
+- Simple, clean layout; show expiry color indicators

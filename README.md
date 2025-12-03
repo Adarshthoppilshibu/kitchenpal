@@ -1,6 +1,10 @@
-<<<<<<< HEAD
-"# KitchenPal - Smart Kitchen Inventory Manager" 
-=======
-# kitchenpal
-KitchenPal - Smart Kitchen Inventory Manager (CPRO 2501)
->>>>>>> db9afb8695eabce902a02caa6d3c76e5b4b04996
+CPRO 2501 - Assignment 1 (Milestone 1)
+
+Student: Adarsh Thoppil Shibu
+
+This repository contains the initial project setup and placeholder files for the KitchenPal project:
+- `client/` : frontend placeholders and UI draft
+- `server/` : backend placeholder routes (dummy CRUD)
+- This commit shows Evidence of Setup and Basic CRUD structure (required for Assignment 1 Milestone 1).
+
+GitHub Repo: https://github.com/yourusername/kitchenpal

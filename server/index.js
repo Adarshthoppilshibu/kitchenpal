@@ -4,6 +4,9 @@ require("dotenv").config();
 
 console.log("Auth feature branch running");
 
+console.log("Auth branch active");
+
+
 const app = express();
 app.use(express.json());
 

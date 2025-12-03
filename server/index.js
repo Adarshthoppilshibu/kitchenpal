@@ -2,6 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+console.log("Auth feature branch running");
+
 const app = express();
 app.use(express.json());
 
@@ -22,4 +24,4 @@ mongoose.connect(process.env.MONGO_URI)
 app.listen(process.env.PORT, () => {
     console.log("Server started on port " + process.env.PORT);
 });
-console.log("Auth feature branch running");
+

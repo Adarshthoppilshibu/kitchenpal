@@ -23,4 +23,29 @@ router.get("/all", async (req, res) => {
     res.json(recipes);
 });
 
+// UPDATE recipe
+router.put("/update/:id", async (req, res) => {
+    try {
+        const updatedRecipe = await Recipe.findByIdAndUpdate(
+            req.params.id,
+            req.body,
+            { new: true }
+        );
+        res.json({ message: "Recipe updated", updatedRecipe });
+    } catch (err) {
+        res.status(400).json({ error: err.message });
+    }
+});
+
+// DELETE recipe
+router.delete("/delete/:id", async (req, res) => {
+    try {
+        await Recipe.findByIdAndDelete(req.params.id);
+        res.json({ message: "Recipe deleted" });
+    } catch (err) {
+        res.status(400).json({ error: err.message });
+    }
+});
+
+
 module.exports = router;
